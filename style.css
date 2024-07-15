@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #777373;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+input[type="number"] {
+    width: calc(100% - 18px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 55%;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #6f7cf3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+#classification {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#healthStatus {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
